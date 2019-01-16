@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JGGTools_Example' do
+  pod 'JGGTools', :path => '../'
+
+  target 'JGGTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

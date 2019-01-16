@@ -1,0 +1,6 @@
+framework module JGGTools {
+  umbrella header "JGGTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "JGGTools",
+  "version": "0.1.0",
+  "summary": "A short description of JGGTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MadeBugs/JGGTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MadeBugs": "1252143565@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/MadeBugs/JGGTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JGGTools/Classes/**/*"
+}

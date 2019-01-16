@@ -1,0 +1,16 @@
+PODS:
+  - JGGTools (0.1.0)
+
+DEPENDENCIES:
+  - JGGTools (from `../`)
+
+EXTERNAL SOURCES:
+  JGGTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JGGTools: 2bb9cd0b186ec9e2817ac48214b76489b6f9a1f9
+
+PODFILE CHECKSUM: e1b6da8a29e1e670b7a717e250fc39e0902fbf8c
+
+COCOAPODS: 1.5.3
