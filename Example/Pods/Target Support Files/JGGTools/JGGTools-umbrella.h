@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HelloWorld.h"
 
 FOUNDATION_EXPORT double JGGToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char JGGToolsVersionString[];

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JGGTools'
-  s.version          = '1.1.1'
-  s.summary          = 'A short description of JGGTools.'
+  s.version          = '1.2.1'
+  s.summary          = 'print any string'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JGGTools/Classes/**/*'
+  s.source_files = 'JGGTools/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'JGGTools' => ['JGGTools/Assets/*.png']

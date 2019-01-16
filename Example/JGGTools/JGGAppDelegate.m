@@ -7,12 +7,15 @@
 //
 
 #import "JGGAppDelegate.h"
+#import "HelloWorld.h"
 
 @implementation JGGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [HelloWorld printString:@"fuckyou bitch"];
+    
     return YES;
 }
 

@@ -1,5 +1,5 @@
 PODS:
-  - JGGTools (0.1.0)
+  - JGGTools (1.1.1)
 
 DEPENDENCIES:
   - JGGTools (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JGGTools: 2bb9cd0b186ec9e2817ac48214b76489b6f9a1f9
+  JGGTools: 2922f899bc401b17a7e6dccede3112f2229e336f
 
 PODFILE CHECKSUM: e1b6da8a29e1e670b7a717e250fc39e0902fbf8c
 

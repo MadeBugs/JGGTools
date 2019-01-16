@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A96FD899475CD1D9F31BE3BC616F825 /* JGGTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 252ADD770965BF43C7E78773A628CD9E /* JGGTools-dummy.m */; };
-		3D56AFF89CFA151C49124D95BC5221F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		34CA62EBB66638BC8F15BA7E9E988B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		509BC7657ABABF8BD906D26038D55E2A /* JGGTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 754701CF4078A9CE73D5A30181B119FE /* JGGTools-dummy.m */; };
+		55CFDB9CEA42F49A57D24859F752924A /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C16837BE6676CC132AD06FFB080F3C /* HelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D182B71F8F00891CC45111DF8F8EBDC /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = C208707E23C5A63BE21D69FE9F633655 /* HelloWorld.m */; };
 		80E4C4059EDEB1D4BFC085B32149C0E0 /* Pods-JGGTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7685982D271659F5C3DAE84B70200 /* Pods-JGGTools_Example-dummy.m */; };
 		849D6270E702BF5785C91498F6732252 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		87453478974C054CA39C58E530FD9166 /* JGGTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E68A2442AD64054F51812D035D012FC3 /* JGGTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FFA9AD4A16BDD93CC28F5DAEA37E2AB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7339AD63FBF6B938476DC5C4B6E44E /* ReplaceMe.m */; };
+		94ECF57BF09F9E666A9BD644CB1A0FDF /* JGGTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DFC9D3A8644800012035D0663F9CEE /* JGGTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2A92C301DBA1FA7E34A80C81E25C817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		B68A677BB946DD50FD7B25F4DFC2D80E /* Pods-JGGTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8367E9DBAE1DADD553066A80BD7B63BD /* Pods-JGGTools_Tests-dummy.m */; };
 		CAA0DFB975D1300AB615B9FC1958CF72 /* Pods-JGGTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F2F0E155D30B2A94BD6CE3B4831397 /* Pods-JGGTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,31 +32,29 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BBFC48F1E2AC4D99C9DF5E87F515961A;
+			remoteGlobalIDString = 129C453E40012A39332298EF4538BE5E;
 			remoteInfo = JGGTools;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		074F34876675D1D3C2B18CA21C6A78DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		09DFC9D3A8644800012035D0663F9CEE /* JGGTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGGTools-umbrella.h"; sourceTree = "<group>"; };
 		0F7B3462D35325A845694F417BF4B663 /* Pods-JGGTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JGGTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		114C7A471B404DEA48829BB06315CFD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		158BD1A6D0F109EA603EFCE4B82DB19C /* Pods-JGGTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JGGTools_Example.modulemap"; sourceTree = "<group>"; };
 		1631ABC500161782585D486F92164FFD /* Pods-JGGTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JGGTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		16751B2D711D430775CEBCB9D6D1D0C3 /* JGGTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGGTools.xcconfig; sourceTree = "<group>"; };
 		1820ADD89E5F1DC96D2BE3E042AD175A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19D21ED70C8226B50B1CDAB3184D5A16 /* JGGTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JGGTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1A19CA4652EB73DDBD8DDD573FD5C307 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		252ADD770965BF43C7E78773A628CD9E /* JGGTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGGTools-dummy.m"; sourceTree = "<group>"; };
 		2AC7685982D271659F5C3DAE84B70200 /* Pods-JGGTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JGGTools_Example-dummy.m"; sourceTree = "<group>"; };
 		375A13BC3F01AEB3BB9A3DB843315305 /* Pods-JGGTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JGGTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3F7339AD63FBF6B938476DC5C4B6E44E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JGGTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3BD8F84AABD088ECFEBA617BA0C8F4F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		43599C8B148DA7C0651227A438B214D1 /* Pods-JGGTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGGTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		445DD7C92E0F518BB8E93965807B2F92 /* Pods-JGGTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JGGTools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4605DCF194C313F0F6DCFC016D74FE3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		517C5D6ADAEC2717B608BF36B6717EC5 /* JGGTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGGTools.modulemap; sourceTree = "<group>"; };
+		514A364307C85DCB45044E916A2ADCF9 /* JGGTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGGTools-prefix.pch"; sourceTree = "<group>"; };
 		54F88FE94B8D4C8FEAB53A763640F4B9 /* Pods-JGGTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGGTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6C40698E589F7F13027FD8A6ABF72435 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754701CF4078A9CE73D5A30181B119FE /* JGGTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGGTools-dummy.m"; sourceTree = "<group>"; };
 		7763AB2BD4F3FA04C9B4C38C20333A15 /* Pods-JGGTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JGGTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8057D7C5CCB809AE305209C11FBD0D96 /* JGGTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JGGTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8367E9DBAE1DADD553066A80BD7B63BD /* Pods-JGGTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JGGTools_Tests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93F2F0E155D30B2A94BD6CE3B4831397 /* Pods-JGGTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JGGTools_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -65,13 +64,16 @@
 		B0A41D16F4F358256B22DC28262E0535 /* Pods-JGGTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JGGTools_Tests.modulemap"; sourceTree = "<group>"; };
 		B7F96B6A3045E199EDED23BF0623D4F6 /* JGGTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGGTools.framework; path = JGGTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB58773051DB7E08BC092D57A2D864D /* Pods-JGGTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JGGTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C208707E23C5A63BE21D69FE9F633655 /* HelloWorld.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HelloWorld.m; path = JGGTools/Classes/HelloWorld.m; sourceTree = "<group>"; };
+		CEB48B856EF186FA0C45E3B5291CA2CD /* JGGTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGGTools.xcconfig; sourceTree = "<group>"; };
 		CFAE95A9558C48241F3399962D93CFD5 /* Pods_JGGTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JGGTools_Tests.framework; path = "Pods-JGGTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F94C38C9C04608F1145330EAEF55DC /* Pods-JGGTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGGTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8F64966C4AF78F96BC92F9B6DAC4A09 /* JGGTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGGTools-prefix.pch"; sourceTree = "<group>"; };
-		E68A2442AD64054F51812D035D012FC3 /* JGGTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGGTools-umbrella.h"; sourceTree = "<group>"; };
+		E4AF455E3F0C59BF7B51B7CC5AC318E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9DEE142EA2ADE8988A02F8E141A5AFE /* Pods-JGGTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JGGTools_Example-resources.sh"; sourceTree = "<group>"; };
 		F13CBBD15837767A0CC4496ECD3C4841 /* Pods-JGGTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JGGTools_Tests-resources.sh"; sourceTree = "<group>"; };
+		F1C16837BE6676CC132AD06FFB080F3C /* HelloWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelloWorld.h; path = JGGTools/Classes/HelloWorld.h; sourceTree = "<group>"; };
+		FEC4019553AD89F50836D69219535B70 /* JGGTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGGTools.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE52298B06AC3ECB311D64E23A199205 /* Frameworks */ = {
+		4A0241164D22B7B8DF6CDAE7AAFDF647 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D56AFF89CFA151C49124D95BC5221F3 /* Foundation.framework in Frameworks */,
+				34CA62EBB66638BC8F15BA7E9E988B0C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,15 +113,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		262626FAA983B953FA00AB5CDF491CA1 /* JGGTools */ = {
+		327533FC5E5CC73316747B8E3583E381 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3F7339AD63FBF6B938476DC5C4B6E44E /* ReplaceMe.m */,
-				90576D434763D434D73F922ECDC2A394 /* Pod */,
-				8C44A154B68A596EE466E0EA75A88168 /* Support Files */,
+				8057D7C5CCB809AE305209C11FBD0D96 /* JGGTools.podspec */,
+				114C7A471B404DEA48829BB06315CFD6 /* LICENSE */,
+				3BD8F84AABD088ECFEBA617BA0C8F4F3 /* README.md */,
 			);
-			name = JGGTools;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3BF527D09D68BE410CA5792B72E0FDB9 /* Pods-JGGTools_Example */ = {
@@ -148,11 +149,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7C1205782468B7CC9D5F0BA525C90577 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4AF455E3F0C59BF7B51B7CC5AC318E4 /* Info.plist */,
+				FEC4019553AD89F50836D69219535B70 /* JGGTools.modulemap */,
+				CEB48B856EF186FA0C45E3B5291CA2CD /* JGGTools.xcconfig */,
+				754701CF4078A9CE73D5A30181B119FE /* JGGTools-dummy.m */,
+				514A364307C85DCB45044E916A2ADCF9 /* JGGTools-prefix.pch */,
+				09DFC9D3A8644800012035D0663F9CEE /* JGGTools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JGGTools";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9BA1CF04D28D5CBC77A6B7F3F59ABD1C /* Development Pods */,
+				B45A218D951AB431B8A64F44C3084997 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				EF6AA77089410244D1CD6A7B31371D29 /* Products */,
 				1F3D9DA8AD3BF231C85E3671FA21DA42 /* Targets Support Files */,
@@ -177,34 +192,10 @@
 			path = "Target Support Files/Pods-JGGTools_Tests";
 			sourceTree = "<group>";
 		};
-		8C44A154B68A596EE466E0EA75A88168 /* Support Files */ = {
+		B45A218D951AB431B8A64F44C3084997 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C40698E589F7F13027FD8A6ABF72435 /* Info.plist */,
-				517C5D6ADAEC2717B608BF36B6717EC5 /* JGGTools.modulemap */,
-				16751B2D711D430775CEBCB9D6D1D0C3 /* JGGTools.xcconfig */,
-				252ADD770965BF43C7E78773A628CD9E /* JGGTools-dummy.m */,
-				D8F64966C4AF78F96BC92F9B6DAC4A09 /* JGGTools-prefix.pch */,
-				E68A2442AD64054F51812D035D012FC3 /* JGGTools-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JGGTools";
-			sourceTree = "<group>";
-		};
-		90576D434763D434D73F922ECDC2A394 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				19D21ED70C8226B50B1CDAB3184D5A16 /* JGGTools.podspec */,
-				4605DCF194C313F0F6DCFC016D74FE3A /* LICENSE */,
-				074F34876675D1D3C2B18CA21C6A78DF /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9BA1CF04D28D5CBC77A6B7F3F59ABD1C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				262626FAA983B953FA00AB5CDF491CA1 /* JGGTools */,
+				EB8C8BEE4F048B96F458264AF12F097E /* JGGTools */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -215,6 +206,18 @@
 				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB8C8BEE4F048B96F458264AF12F097E /* JGGTools */ = {
+			isa = PBXGroup;
+			children = (
+				F1C16837BE6676CC132AD06FFB080F3C /* HelloWorld.h */,
+				C208707E23C5A63BE21D69FE9F633655 /* HelloWorld.m */,
+				327533FC5E5CC73316747B8E3583E381 /* Pod */,
+				7C1205782468B7CC9D5F0BA525C90577 /* Support Files */,
+			);
+			name = JGGTools;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		EF6AA77089410244D1CD6A7B31371D29 /* Products */ = {
@@ -238,6 +241,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		395658A3DF5E803BF8417CA570FB9313 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CFDB9CEA42F49A57D24859F752924A /* HelloWorld.h in Headers */,
+				94ECF57BF09F9E666A9BD644CB1A0FDF /* JGGTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C1ABCBD9BD404D78512BC5109DCA679 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,17 +258,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA354DBEDD4CC355ABC92273621EFF35 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87453478974C054CA39C58E530FD9166 /* JGGTools-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		129C453E40012A39332298EF4538BE5E /* JGGTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1E1BD5128582639E51359C6F09DB83 /* Build configuration list for PBXNativeTarget "JGGTools" */;
+			buildPhases = (
+				395658A3DF5E803BF8417CA570FB9313 /* Headers */,
+				A60695A783865DC05E656D76751A4202 /* Sources */,
+				4A0241164D22B7B8DF6CDAE7AAFDF647 /* Frameworks */,
+				AEBC62D419365258F08AC43FE1CE6765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGGTools;
+			productName = JGGTools;
+			productReference = B7F96B6A3045E199EDED23BF0623D4F6 /* JGGTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		7E1FB7051FAE21D74CFE485441FCE503 /* Pods-JGGTools_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AD655AF1E65C54422AEA9E2696DFB5C /* Build configuration list for PBXNativeTarget "Pods-JGGTools_Tests" */;
@@ -274,24 +296,6 @@
 			name = "Pods-JGGTools_Tests";
 			productName = "Pods-JGGTools_Tests";
 			productReference = CFAE95A9558C48241F3399962D93CFD5 /* Pods_JGGTools_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BBFC48F1E2AC4D99C9DF5E87F515961A /* JGGTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A9A486C5E5A0B4744C3CBB26D2FED7C /* Build configuration list for PBXNativeTarget "JGGTools" */;
-			buildPhases = (
-				EA354DBEDD4CC355ABC92273621EFF35 /* Headers */,
-				817D28710D4D945F632A214948B1BD93 /* Sources */,
-				AE52298B06AC3ECB311D64E23A199205 /* Frameworks */,
-				C02793FC733165542BDC493DD58A2373 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JGGTools;
-			productName = JGGTools;
-			productReference = B7F96B6A3045E199EDED23BF0623D4F6 /* JGGTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E5D7D788750675D0E70D17DE3A1DDB83 /* Pods-JGGTools_Example */ = {
@@ -334,7 +338,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBFC48F1E2AC4D99C9DF5E87F515961A /* JGGTools */,
+				129C453E40012A39332298EF4538BE5E /* JGGTools */,
 				E5D7D788750675D0E70D17DE3A1DDB83 /* Pods-JGGTools_Example */,
 				7E1FB7051FAE21D74CFE485441FCE503 /* Pods-JGGTools_Tests */,
 			);
@@ -349,7 +353,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C02793FC733165542BDC493DD58A2373 /* Resources */ = {
+		AEBC62D419365258F08AC43FE1CE6765 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,20 +370,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		817D28710D4D945F632A214948B1BD93 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A96FD899475CD1D9F31BE3BC616F825 /* JGGTools-dummy.m in Sources */,
-				8FFA9AD4A16BDD93CC28F5DAEA37E2AB /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		91CD8690296CA348540551E0776201F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B68A677BB946DD50FD7B25F4DFC2D80E /* Pods-JGGTools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60695A783865DC05E656D76751A4202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D182B71F8F00891CC45111DF8F8EBDC /* HelloWorld.m in Sources */,
+				509BC7657ABABF8BD906D26038D55E2A /* JGGTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +401,7 @@
 		3F50178CAA90E0E3D3468050173C9F5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JGGTools;
-			target = BBFC48F1E2AC4D99C9DF5E87F515961A /* JGGTools */;
+			target = 129C453E40012A39332298EF4538BE5E /* JGGTools */;
 			targetProxy = B0DD62870F7E1C9E9E14037C1C85C449 /* PBXContainerItemProxy */;
 		};
 		3FD2E23525AEE6C9C279641078641A55 /* PBXTargetDependency */ = {
@@ -409,6 +413,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1C7DC5AB4773C71141F22A405009CC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB48B856EF186FA0C45E3B5291CA2CD /* JGGTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JGGTools/JGGTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGGTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JGGTools/JGGTools.modulemap";
+				PRODUCT_MODULE_NAME = JGGTools;
+				PRODUCT_NAME = JGGTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45B796DC4E33FF94A4D9909ACCEABFB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB48B856EF186FA0C45E3B5291CA2CD /* JGGTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JGGTools/JGGTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGGTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JGGTools/JGGTools.modulemap";
+				PRODUCT_MODULE_NAME = JGGTools;
+				PRODUCT_NAME = JGGTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6D8A21A7737A74BC518849BD748974E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0F94C38C9C04608F1145330EAEF55DC /* Pods-JGGTools_Example.release.xcconfig */;
@@ -504,36 +569,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		9E1950D26158F62851A04FA0B8FAD8D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16751B2D711D430775CEBCB9D6D1D0C3 /* JGGTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JGGTools/JGGTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JGGTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JGGTools/JGGTools.modulemap";
-				PRODUCT_MODULE_NAME = JGGTools;
-				PRODUCT_NAME = JGGTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -634,37 +669,6 @@
 			};
 			name = Debug;
 		};
-		AF260C76077FC4994232871437A8E156 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16751B2D711D430775CEBCB9D6D1D0C3 /* JGGTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JGGTools/JGGTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JGGTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JGGTools/JGGTools.modulemap";
-				PRODUCT_MODULE_NAME = JGGTools;
-				PRODUCT_NAME = JGGTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B11851C33E29EE39F8DAEEC8ACC5ADC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54F88FE94B8D4C8FEAB53A763640F4B9 /* Pods-JGGTools_Tests.debug.xcconfig */;
@@ -753,20 +757,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4E1E1BD5128582639E51359C6F09DB83 /* Build configuration list for PBXNativeTarget "JGGTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B796DC4E33FF94A4D9909ACCEABFB0 /* Debug */,
+				1C7DC5AB4773C71141F22A405009CC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		759B81A6910432A6A1E72A89ABD3A7AD /* Build configuration list for PBXNativeTarget "Pods-JGGTools_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB95E3037DA1FFF0BFDC22F2C4DAF8EF /* Debug */,
 				6D8A21A7737A74BC518849BD748974E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A9A486C5E5A0B4744C3CBB26D2FED7C /* Build configuration list for PBXNativeTarget "JGGTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E1950D26158F62851A04FA0B8FAD8D2 /* Debug */,
-				AF260C76077FC4994232871437A8E156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
